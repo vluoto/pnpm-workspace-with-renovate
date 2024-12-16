@@ -7,3 +7,9 @@ settings:
 importers:
 
   .: {}
+
+  packages/a: {}
+
+  packages/b: {}
+
+  packages/c: {}
