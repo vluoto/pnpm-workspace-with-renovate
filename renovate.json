@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "additionalBranchPrefix": "{{parentDir}}-",
-  "commitMessagePrefix": "{{#if parentDir}}{{parentDir}}: {{/if}}"
+  "commitMessagePrefix": "{{#if parentDir}}{{parentDir}}: {{/if}}",
+  "packageRules": [
+    {
+      "matchFileNames": ["packages/c/**"],
+      "enabled": false
+    }
+  ]
 }
