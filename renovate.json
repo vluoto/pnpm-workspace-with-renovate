@@ -3,5 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "additionalBranchPrefix": "{{parentDir}}-"
+  "additionalBranchPrefix": "{{parentDir}}-",
+  "commitMessagePrefix": "{{#if parentDir}}{{parentDir}}: {{/if}}"
 }
