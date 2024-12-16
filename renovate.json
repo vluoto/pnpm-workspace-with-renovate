@@ -9,11 +9,7 @@
       "enabled": false
     },
     {
-      "matchFileNames": ["packages/a/**"],
-      "enabled": true
-    },
-    {
-      "matchFileNames": ["packages/b/**"],
+      "matchFileNames": ["packages/a/**", "packages/b/**"],
       "enabled": true
     }
   ]
