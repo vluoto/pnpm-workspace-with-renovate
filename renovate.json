@@ -3,10 +3,5 @@
   "extends": ["config:recommended"],
   "additionalBranchPrefix": "{{parentDir}}-",
   "commitMessagePrefix": "{{#if parentDir}}{{parentDir}}: {{/if}}",
-  "packageRules": [
-    {
-      "matchFileNames": ["packages/c/**"],
-      "enabled": false
-    }
-  ]
+  "enabled": false
 }
