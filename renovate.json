@@ -5,7 +5,7 @@
   "commitMessagePrefix": "{{#if parentDir}}{{parentDir}}: {{/if}}",
   "packageRules": [
     {
-      "matchFileNames": ["**"],
+      "matchFileNames": ["**/package.json"],
       "enabled": false
     },
     {
